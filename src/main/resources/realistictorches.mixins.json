@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.trongthang.realistictorches.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"SubmergeInWaterCheckMixin",
+		"BlockStateChangeMixin",
+		"TorchPlaceBreakChangeMixin",
+		"MixinVerticallyAttachableBlockItem"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

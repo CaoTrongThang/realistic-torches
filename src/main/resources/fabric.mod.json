@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "realistictorches",
+	"version": "${version}",
+	"name": "Realistic Torches",
+"description": "Realistic Torches!",
+	"authors": [
+		"TrongThang"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/realistictorches/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.trongthang.realistictorches.RealisticTorches"
+		],
+		"client": [
+			"com.trongthang.realistictorches.client.RealisticTorchesClient"
+		],
+		"fabric-datagen": [
+			"com.trongthang.realistictorches.RealisticTorchesDataGenerator"
+		]
+	},
+	"mixins": [
+		"realistictorches.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
